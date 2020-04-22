@@ -1,113 +1,110 @@
 html {
-    box-sizing: border-box;
-  }
-  
-  *,
-  *::before,
-  ::after {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    width: 900px;
-    margin: 0 auto;
-  }
-  
-  body {
-    font-family: "Playfair Display", "Arial", serif;
-    color: #626262;
-    font-size: 14px;
-    line-height: 24px;
-    background-color: #ffffff;
-  }
-  
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 31px;
-  }
-  
-  .navigation-title {
-    font-family: "Ubuntu", sans-serif;
-    color: #b4ad9e;
-    text-transform: uppercase;
-    font-weight: 300;
-    margin-bottom: 33px;
-  }
-    
-  .menu-navigation a:hover,
-  .menu-navigation a:focus {
-    color: #03a9f4;
-  }
-  
-  .menu-navigation li {
-    display: inline-block;
-  }
-  
-  .menu-navigation a {
-    color: #626262;
-    text-transform: uppercase;
-    text-decoration: none;
-  }
-  
-  .menu-navigation {
-    list-style: none;
-    text-align: center;
-    padding-top: 72px;
-    margin-bottom: 98px;
-  }
-  
-  .menu-navigation li:not(:last-child) {
-    margin-right: 100px;
-  }
-    
-  .main-articles {
-    font-size: 0;
-  }
-  
-  .blog-article {
-    width: 420px;
-    display: inline-block;
-    margin-right: 60px;
-    font-size: 0px;
-    text-align: left;
-    margin-bottom: 136px;
-    vertical-align: top;
-  }
-  
-  .blog-article:nth-child(2n) {
-    margin-right: 0px;
-  }
-  
-  .blog-article p {
-    font-size: 14px;
-    line-height: 24px;
-  }
-  
-  .blog-article h2 {
-    font-size: 30px;
-    line-height: 36px;
-    margin-bottom: 37px;
-  }
-    
-  .bottom {
-    margin-bottom: 52px;
-  }
-    
-  button {
-    width: 165px;
-    height: 60px;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 20px;
-    border: 1px solid #000;
-    background-color: #ffffff;
-    margin-bottom: 70px;
-  }
-  .button:hover {
-      color: blue;
-  }
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Playfair Display", "Arial", serif;
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #ffffff;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 31px;
+}
+
+.navigation-title {
+  font-family: "Ubuntu", sans-serif;
+  color: #b4ad9e;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 33px;
+}
+
+.menu-navigation a:hover,
+.menu-navigation a:focus {
+  color: #03a9f4;
+}
+
+.menu-navigation li {
+  display: inline-block;
+}
+
+.menu-navigation a {
+  color: #626262;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menu-navigation {
+  list-style: none;
+  text-align: center;
+  padding-top: 72px;
+  padding-bottom: 98px;
+}
+
+.menu-navigation li:not(:last-child) {
+  margin-right: 100px;
+}
+
+.main-articles {
+  font-size: 0;
+}
+
+.blog-article {
+  width: 420px;
+  display: inline-block;
+  margin-right: 60px;
+  font-size: 0px;
+  text-align: left;
+  margin-bottom: 136px;
+  vertical-align: top;
+}
+
+.blog-article:nth-child(2n) {
+  margin-right: 0px;
+}
+
+.blog-article p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.blog-article h2 {
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 37px;
+}
+
+.bottom {
+  margin-bottom: 52px;
+}
+
+button {
+  width: 165px;
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid #000;
+  background-color: #ffffff;
+  margin-bottom: 70px;
+}
